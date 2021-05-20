@@ -1,0 +1,22 @@
+{
+    "name": "carolex/back",
+    "description": "description_text",
+    "minimum-stability": "stable",
+    "license": "proprietary",
+    "require" : {
+    },
+    "authors": [
+        {
+            "name": "author's name",
+            "email": "contact@alexandrehaffner.com"
+        }
+    ],
+    "require-dev": {
+        "behat/behat": "^3.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "" : "app/Domain"
+        }
+    }
+}
